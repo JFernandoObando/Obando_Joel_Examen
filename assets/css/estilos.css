@@ -1,0 +1,124 @@
+
+
+.cont1{
+    text-align: center;
+    font-size: 100%;
+}
+.quien{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.info_{
+    text-align: justify;
+   margin-bottom: 5%; 
+}
+.d-block  {
+    height:25vh;
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+.display-4{
+    font-weight: normal;
+    font-size: 80px;
+    color: #FFFAF3;
+}
+.fab{
+    background: url("../img/a2.jpeg");
+}
+
+.text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.refe {
+    color : #AA3939;
+    text-decoration:none;
+}
+
+.bg-dark {
+    background-color: #fff;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    border-radius: 20px;
+    background-color: #8E8888;
+}
+
+
+.periodo{
+    padding-left: 2%;
+    color: #8E8888;
+    
+}
+
+.titulos{
+    text-align: center;
+}
+
+li
+{
+   padding-bottom: 10px; 
+}
+.cursoI{
+    padding-bottom: 4px;
+}
+
+.tituloP{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.col-md-5{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.form{
+    
+    padding-right: 50px;
+}
+
+.mapa{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.mapa {
+    overflow:hidden;
+    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position:relative;
+    height:0;
+}
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.contactar{
+    padding-top: 5%;
+    font-size: 130%;
+}
+.contactos{
+    font-size: 125%;
+    text-align: center;
+}
+.dd{
+    
+    padding-top: 1%;
+}
+
+.span1{
+    color: #8E8888;;
+}

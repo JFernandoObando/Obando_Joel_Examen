@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/estiloForm.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container" id="advanced-search-form">
+        <h2 >DATOS DEL MANTENIMIENTO</h2>
+        <form action="ingresodatos.php" method="GET">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br>
+            <br>
+            <label>Kilometraje del vehiculo: </label>
+            <input type="text" class="form-control" placeholder="Kilometraje" name="kilo" id="first-name"><br>
+            <label>Tipo de mantenimiento: </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" value="preventivo" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Preventivo
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" value="correctivo" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Correctivo
+              </label>
+            </div>
+            <br>
+            <label>Nombre del taller: </label>
+            <input name='nombre' class="form-control"placeholder="Nombre taller" type='text'/><br>
+            <label>Costo del mantenimiento: </label>
+            <input name='costo_ma' class="form-control" placeholder="Costo mantenimiento" type='text'/><br>
+            <label>Costo de repuestos: </label>
+            <input name='costo_re' class="form-control" placeholder="Costo repuestos" type='text'/><br>
+            <label>Cambio: </label>
+            <div class="form-check">
+                <input class="form-check-input" name="chk1" type="checkbox" value="Aceite" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Aceite
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" name="chk2"type="checkbox" value="Frenos" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Frenos
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" name="chk3"type="checkbox" value="Llantas" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Llantas
+                </label>
+              </div>
+              <br>
+              <label>Observacion: </label>
+            <br>
+            <textarea name="textarea" rows="10" cols="50" placeholder="Escribe aqui tu observacion"></textarea>
+       
+            <br>
+        <input type="submit" value="Guardar" />
+    </form>
+    </div>
+</body>
+
+</html>
